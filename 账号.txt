@@ -1,0 +1,16 @@
+日志网址：http://inneroa.yongshangtech.com:8081
+日志账号：songyanglin
+日志密码：a6d4c56181
+
+公司内部OA报销系统网址：http://www.ysh-oa.com/
+OA报销账号：songyanglin
+OA报销密码：a
+
+SVN账号：songyanglin
+SVN：N&tZsiPL^$
+
+项目账号：Admin
+项目密码：123$abcD
+
+公司抬头：北京用尚科技股份有限公司
+税号：91110108740087949J  
