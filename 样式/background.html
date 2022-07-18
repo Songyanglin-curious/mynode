@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:red;
+        }
+        .box_border_radius{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(135deg, #fff 20px, transparent 0) top left,
+	radial-gradient(circle at 0% 100%, transparent 13px, #1359df 0) top right, 
+	linear-gradient(#1359df, #1359df) right bottom,
+	linear-gradient(#1359df, #1359df) right bottom,
+	radial-gradient(circle at 0% 100%, #fff 13px, transparent 0) bottom left #00CAF5;
+	background-size: 50% 50%,15px 15px,5px 20px, 20px 5px,30% 30%;
+	background-repeat: no-repeat;
+	border-radius: 0 15px 0 0;
+}
+    .right-angle{
+        width: 80%;
+        height: 300px;
+       
+    }
+    .mask4
+{
+width:100px;
+height:0;
+border-top:100px solid yellow;
+border-left:37px solid transparent;
+}
+.rect{
+  background: linear-gradient(135deg, transparent 10px, #58a 0) top left,
+          linear-gradient(-135deg, transparent 10px, #58a 0) top right,
+          linear-gradient(-45deg, transparent 10px, #58a 0) bottom right,
+          linear-gradient(45deg, transparent 10px, #58a 0) bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  /* Internet Explorer 9 及更早版本 IE 浏览器不支持渐变。 */
+}
+    </style>
+</head>
+<body>
+    <div class="box_border_radius"></div>
+    <div class="right-angle rect"></div>
+    <div class="mask4"></div>
+</body>
+</html>
